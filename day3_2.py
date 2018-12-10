@@ -23,8 +23,8 @@ def main():
         #print ("sizeX", sizeX)
         #print ("sizeY", sizeY)
 
-        for x in range(startX,startX+sizeX):
-            for y in range(startY,startY+sizeY):
+        for x in range(startX,startX + sizeX):
+            for y in range(startY,startY + sizeY):
                 if (grid[x][y] != 0):
                     if idx in claims:
                         claims.remove(idx)
